@@ -1,12 +1,15 @@
 .completed {
   text-decoration: line-through;
-  color: gray;
+  color: rgba(255, 255, 255, 0.793);
 }
 
 body {
+  color: #000000;
+  background-image: url("https://storage.needpix.com/rsynced_images/green-background-1480062887P1D.jpg");
+  background-size: cover;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
+  background-position: center;
+  aspect-ratio: 1920 / 1080;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,14 +17,35 @@ body {
 }
 
 #main-container {
+  box-shadow: 0 2px 30px rgb(0, 0, 0);
   border: 2px solid black;
   border-radius: 5px;
   max-width: 600px;
   width: 100%;
   padding: 20px;
-  background: white;
+  background: rgb(135, 130, 130);
   text-align: center;
 }
 #main-container h1 {
   margin: 0 0 20px;
+  font-size: 40px;
+  color: #fc0000;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #ffffffc4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #fc0000;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 15px;
 }
